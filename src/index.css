@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-n-8 text-n-1 text-base;
+  }
+}
+
+.rotate-45 {
+  @apply rotate-[45deg]
+}
+
+.rotate-90 {
+  @apply rotate-[90deg]
+}
+
+.rotate-135 {
+  @apply rotate-[135deg]
+}
+
+.rotate-180 {
+  @apply rotate-[180deg]
+}
+
+.rotate-225 {
+  @apply rotate-[225deg]
+}
+
+.rotate-270 {
+  @apply rotate-[270deg]
+}
+
+.rotate-315 {
+  @apply rotate-[315deg]
+}
+
+.rotate-360 {
+  @apply rotate-[360deg]
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg]
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg]
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg]
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg]
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg]
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg]
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg]
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg]
+}
+
+@layer components {
+  .react-quill-container {
+    @apply mt-4; /* Margin on top */
+  }
+
+  .react-quill-editor .ql-editor {
+    @apply p-4; /* Padding */
+    min-height: 250px; /* Height */
+    box-sizing: border-box; /* Include padding in height */
+  }
+}
+
+/* Customize the scrollbar for all browsers */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #99c2f1, #c789fd);
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #84b1e9, #b480e4);
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4f8ed6 #5a5a5a;
+}
+
+/* Customize scroll bar for Edge, Internet Explorer, and others */
+*::-ms-scrollbar {
+  width: 10px;
+}
+
+*::-ms-scrollbar-thumb {
+  background: linear-gradient(180deg, #83b8f5, #d09ffc);
+  border-radius: 10px;
+}
+
+@keyframes glowEffect {
+  0% {
+    filter: drop-shadow(0 0 10px rgba(0, 225, 255, 0.9));
+  }
+  50% {
+    filter: drop-shadow(0 0 30px rgba(0, 255, 255, 1));
+  }
+  100% {
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.9));
+  }
+}
+
+@keyframes lightMove {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.curve-glow {
+  position: relative;
+  animation: glowEffect 4s ease-in-out infinite;
+}
+
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: repeating-conic-gradient(#000 0 90deg, #ccc 0 180deg);
+  animation: l21 1s infinite linear;
+}
+
+@keyframes l21 {
+  100% {
+    transform: rotate(0.5turn);
+  }
+}

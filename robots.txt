@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+Allow: /about-us
+Allow: /privacy-policy
+Allow: /terms-and-conditions
+Allow: /support
+Allow: /authors
+Allow: /allposts
+Allow: /posts/*
+Allow: /roadmap
+Allow: /roadmap/*
+Allow: /internships
+
+# Disallow authentication pages
+Disallow: /login
+Disallow: /register
+Disallow: /reset-password
+
+# Disallow user-specific and private functionality
+Disallow: /profile
+Disallow: /dashboard
+Disallow: /create
+Disallow: /edit
+Disallow: /admin-dashboard
+Disallow: /send-mail
+Disallow: /group-chat
+Disallow: /internships-application
+
+# Disallow tool pages that might be resource-intensive or meant for registered users
+Disallow: /resume-builder
+Disallow: /projects-idea
+Disallow: /online-code-snippet-manager
+
+# Crawl delay for most bots
+Crawl-delay: 8
