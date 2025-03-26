@@ -12,7 +12,7 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h3 mb-4 md:mb-8">
-          Revolutionize Healthcare with InstaCare AI
+          Elevate Your Coding Experience with Code Caffeine
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -30,7 +30,7 @@ const Collaboration = () => {
           </ul>
 
           <Link to="/create">
-          <Button>Try InstaCare AI</Button>
+          <Button>Try Code Caffeine</Button>
           </Link>
         </div>
 
@@ -47,7 +47,7 @@ const Collaboration = () => {
                     src={codeCaffeineLogo}
                     width={88}
                     height={88}
-                    alt="InstaCare AI"
+                    alt="Code Caffeine"
                   />
                 </div>
               </div>

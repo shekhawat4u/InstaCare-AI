@@ -58,7 +58,7 @@ const Footer = () => {
       <div className="container flex flex-col sm:flex-row sm:justify-between items-center gap-10 max-sm:flex-col">
       
       <p className="caption text-n-4 lg:block text-center">
-          InstaCare AI © {new Date().getFullYear()}. All rights reserved.
+          Code Caffeine © {new Date().getFullYear()}. All rights reserved.
         </p>
         </div>
     </Section>

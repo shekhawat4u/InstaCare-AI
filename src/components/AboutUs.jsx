@@ -11,14 +11,14 @@ const AboutUs = () => {
       <header className="text-center mb-12">
         <h1 className="text-5xl font-bold mb-4 text-blue-400">About Us</h1>
         <p className="text-lg text-gray-300">
-          Discover the story behind InstaCare AI and meet the visionary driving our mission forward.
+          Discover the story behind Code Caffeine and meet the visionary driving our mission forward.
         </p>
       </header>
 
       <section className="mb-16">
-        <h2 className="text-4xl font-semibold mb-4 text-blue-400">About InstaCare AI</h2>
+        <h2 className="text-4xl font-semibold mb-4 text-blue-400">About Code Caffeine</h2>
         <p className="text-lg text-gray-200 mb-4">
-          <span className="font-semibold">InstaCare AI</span> is your ultimate destination for enhancing your coding skills with a diverse range of projects and insightful blogs. Our platform aims to provide
+          <span className="font-semibold">Code Caffeine</span> is your ultimate destination for enhancing your coding skills with a diverse range of projects and insightful blogs. Our platform aims to provide
           <span className="font-semibold text-blue-400"> valuable learning</span> experiences and foster a community of passionate developers.
         </p>
         <p className="text-lg text-gray-200">
@@ -41,7 +41,7 @@ const AboutUs = () => {
             <p className="text-gray-300 mb-4">
               Founder & CEO
               <br />
-              Harshvardhan is the visionary behind InstaCare AI. With a deep passion for coding and a rich background in software engineering, he founded InstaCare AI to create a platform where developers can enhance their skills and stay updated with the latest trends. His leadership drives the company&apos;s strategic vision and growth.
+              Harshvardhan is the visionary behind Code Caffeine. With a deep passion for coding and a rich background in software engineering, he founded Code Caffeine to create a platform where developers can enhance their skills and stay updated with the latest trends. His leadership drives the company&apos;s strategic vision and growth.
             </p>
             <div className="flex justify-center gap-4">
               <a
@@ -76,7 +76,7 @@ const AboutUs = () => {
       <section className="mb-16">
         <h2 className="text-4xl font-semibold mb-4 text-blue-400">Our Mission</h2>
         <p className="text-lg text-gray-200">
-          At InstaCare AI, our mission is to empower developers with the knowledge and tools they need to excel in their careers. We are committed to delivering high-quality content that fosters continuous learning and growth. Our team is dedicated to creating an inclusive and supportive community where everyone can share their passion for coding.
+          At Code Caffeine, our mission is to empower developers with the knowledge and tools they need to excel in their careers. We are committed to delivering high-quality content that fosters continuous learning and growth. Our team is dedicated to creating an inclusive and supportive community where everyone can share their passion for coding.
         </p>
       </section>
 

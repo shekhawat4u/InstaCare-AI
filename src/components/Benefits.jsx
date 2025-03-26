@@ -11,7 +11,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Diagnose Faster, Care Better with InstaCare AI"
+          title="Code Smarter, Not Harder with Code Caffeine."
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -32,7 +32,12 @@ const Benefits = () => {
                   rel="noopener noreferrer"
                   className="flex items-center mt-auto group"
                 >
-          
+                  <img
+                    src={item.iconUrl}
+                    width={48}
+                    height={48}
+                    alt={item.title}
+                  />
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider group-hover:underline">
                     Try Now
                   </p>

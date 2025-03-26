@@ -17,7 +17,7 @@ const ResumeBuilder = () => {
     }, [token, navigate]);
 
   const [resumeData,] = useState({
-    name: "InstaCare AI",
+    name: "Code Caffeine",
     contact: "+91 9799123456",
     email: "contact@codecaffeine.in",
     linkedin: "https://linkedin.com/in/shekhawat4u",

@@ -8,11 +8,10 @@ const Services = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
-      <Heading
-  title="Transform Healthcare with AI."
-  text="Harness the power of AI-driven diagnostics and predictive analytics to revolutionize patient care."
-/>
-
+        <Heading
+          title="Ignite Your Coding Passion."
+          text="Dive into expert tutorials and hands-on projects crafted to accelerate your programming journey."
+        />
 
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
@@ -20,18 +19,19 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 width={800}
-                alt="InstaCare AI Services"
+                alt="Code Caffeine Services"
                 height={730}
                 src={service1}
               />
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-            <h4 className="h4 mb-4">Revolutionize Healthcare with AI</h4>
-<p className="body-2 mb-[3rem] text-n-3">
-  InstaCare AI empowers medical professionals with advanced AI-driven diagnostics, predictive analytics, and innovative healthcare solutions to enhance patient care.
-</p>
-
+              <h4 className="h4 mb-4">Level Up Your Coding Mastery</h4>
+              <p className="body-2 mb-[3rem] text-n-3">
+                Code Caffeine provides expert tutorials and hands-on projects to
+                accelerate your coding skills, whether you&apos;re starting out or
+                advancing to expert level.
+              </p>
 
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (

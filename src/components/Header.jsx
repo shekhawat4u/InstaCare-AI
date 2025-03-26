@@ -70,7 +70,7 @@ const Header = () => {
             src={codeCaffeineLogo}
             width={190}
             height={40}
-            alt="InstaCare AI"
+            alt="Code Caffeine"
           />
         </a>
 

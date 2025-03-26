@@ -59,11 +59,11 @@ const Authors = () => {
   return (
     <section className="authors py-12">
       <Helmet>
-        <title>Users</title>
+        <title>Authors</title>
       </Helmet>
       <header className="text-center mb-12">
-        <h1 className="text-5xl font-bold mb-4 mt-3 text-blue-400">Users</h1>
-        <p className="text-lg text-gray-400">Total Users: {totalAuthors}</p>
+        <h1 className="text-5xl font-bold mb-4 mt-3 text-blue-400">Authors</h1>
+        <p className="text-lg text-gray-400">Total Authors: {totalAuthors}</p>
       </header>
 
       {isLoading ? (

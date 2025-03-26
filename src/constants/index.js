@@ -51,13 +51,13 @@ export const companyLogos = [
 export const navigation = [
   {
     id: "0",
-    title: "Users",
+    title: "Authors",
     url: "/authors",
   },
   {
     id: "1",
-    title: "ChatBot",
-    url: "/",
+    title: "Posts",
+    url: "/allposts",
   },
   {
     id: "2",
@@ -71,12 +71,11 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 export const notificationImages = [notification4, notification3, notification2];
 
 export const brainwaveServices = [
-  "AI-Powered Disease Detection and Diagnosis",
-  "Predictive Analytics for Early Disease Prevention",
-  "Cutting-Edge Medical Research and Insights",
-  "Advanced Healthcare AI Solutions for Professionals",
+  "Hands-on Real-World Projects",
+  "Exclusive Expert Insights and Strategies",
+  "Curated, Progressively Advanced Learning Paths",
+  "Vibrant Community Collaboration and Support"
 ];
-
 
 export const brainwaveServicesIcons = [
   recording03,
@@ -88,25 +87,25 @@ export const brainwaveServicesIcons = [
 
 
 export const collabText =
-"Revolutionize healthcare with AI-driven diagnostics, predictive analytics, and cutting-edge medical insights to enhance patient care and outcomes."
+  "Supercharge your coding journey with expert DSA challenges, innovative development resources, and insightful blogs to level up your skills.";
+
   export const collabContent = [
     {
       id: "0",
-      title: "AI-Powered Diagnostics",
-      text: "Leverage cutting-edge AI to enhance medical diagnosis and improve patient outcomes.",
+      title: "DSA Challenges",
+      text: "Tackle a wide array of Data Structures and Algorithms challenges to sharpen your skills.",
     },
     {
       id: "1",
-      title: "Predictive Healthcare Analytics",
-      text: "Utilize AI-driven insights to predict diseases and optimize treatment strategies.",
+      title: "Cutting-Edge Development",
+      text: "Dive into the latest trends and innovations in web and software development.",
     },
     {
       id: "2",
-      title: "Medical Research & Innovation",
-      text: "Stay updated with groundbreaking medical research and AI advancements in healthcare.",
+      title: "Code Snippets & Blogs",
+      text: "Discover practical code snippets and expert blogs to enhance your coding journey.",
     },
   ];
-  
   
 
 
@@ -172,81 +171,85 @@ export const collabApps = [
 export const benefits = [
   {
     id: "0",
-    title: "InstaCare AI Brain Tumor Detection",
-    text: "Leverage AI-powered diagnostics to detect brain tumors with high accuracy. InstaCare AI analyzes medical scans to assist doctors in early detection and treatment planning.",
+    title: "Code Caffeine Mood-Based Themes (VS Code Extension)",
+    text: "Personalize your coding experience with mood-based themes! Code Caffeine Mood-Based Themes automatically adjusts your VS Code editor's color scheme to match your current mood or time of day.",
     backgroundUrl: benefitCard1,
-    link: "/brain-tumor-detection",
+    iconUrl: benefitIcon1,
+    link: "https://marketplace.visualstudio.com/items?itemName=codecaffeine.code-caffeine-themes",
   },
   {
     id: "1",
-    title: "InstaCare AI Brain Disease Prediction",
-    text: "Predict neurological diseases with AI-driven insights. InstaCare AI processes patient data and medical imaging to help healthcare professionals make informed decisions.",
+    title: "codecaffeine-utils (npm package)",
+    text: "`codecaffeine-utils` is a handy utility library that simplifies common tasks like data validation, formatting, and manipulation, helping streamline JavaScript and Node.js projects.",
     backgroundUrl: benefitCard2,
+    iconUrl: benefitIcon2,
     light: true,
-    link: "/brain-disease-prediction",
+    link: "https://www.npmjs.com/package/codecaffeine-utils",
   },
   {
     id: "2",
-    title: "InstaCare AI Pneumonia Detection",
-    text: "Detect pneumonia efficiently using AI-powered analysis of chest X-rays. Enhance diagnostic accuracy and reduce the time needed for early intervention.",
+    title: "Code Caffeine Snippet Manager (VS Code Extension)",
+    text: "A VS Code extension to store, organize, and access your favorite code snippets easily. Boost productivity and keep your development workflow clean.",
     backgroundUrl: benefitCard3,
-    link: "/pneumonia-detection",
+    iconUrl: benefitIcon1,
+    link: "https://marketplace.visualstudio.com/items?itemName=codecaffeine.code-caffeine-snippet-manager",
   },
   {
     id: "3",
-    title: "InstaCare AI Medical Chatbot",
-    text: "Get instant medical assistance with our AI-powered chatbot. It provides symptom-based guidance, answers health-related queries, and assists patients in scheduling doctor appointments.",
-    backgroundUrl: benefitCard4,
+    title: "Business Brew: Brewing Success (E-Book)",
+    text: "Transform your entrepreneurial dreams into reality with Harshvardhan Singh Shekhawat's masterfully crafted guide. Learn timeless wisdom, cutting-edge strategies, and real-world examples to succeed in the modern world.",
+    backgroundUrl: benefitCard4, 
+    iconUrl: benefitIcon3, 
     light: true,
-    link: "/medical-chatbot",
+    link: "https://amzn.in/d/8FpE85r",
   },
+  
   {
     id: "4",
-    title: "InstaCare AI EHR Integration",
-    text: "Seamlessly integrate Electronic Health Records (EHR) with AI-driven insights. Optimize patient management, streamline workflows, and enhance medical data accessibility.",
+    title: "Code Caffeine Resume Builder",
+    text: "Create a professional, polished resume in minutes with Code Caffeine's Resume Builder. Build a stunning resume with ease using our intuitive tool, designed for developers and tech enthusiasts.",
     backgroundUrl: benefitCard5,
+    iconUrl: benefitIcon4,
     light: false,
-    link: "/ehr-integration",
+    link: "/resume-builder",
   },
   {
     id: "5",
-    title: "InstaCare AI Disease Prediction",
-    text: "Utilize AI-powered algorithms to predict diseases based on symptoms, genetic factors, and medical history. Empower early diagnosis and preventive healthcare.",
+    title: "50+ Language & Framework Projects Idea",
+    text: "Explore projects across 50+ languages and frameworks. Build real-world applications using the latest technologies and industry standards.",
     backgroundUrl: benefitCard6,
+    iconUrl: benefitIcon5,
     light: true,
-    link: "/disease-prediction",
+    link: "/projects-idea",
+  },
+  {
+    id: "5",
+    title: "Online Code Snippet Manager",
+    text: "Easily create, manage, and share code snippets across languages. Simplify your workflow with our intuitive snippet management tool.",
+    backgroundUrl: benefitCard1,
+    iconUrl: benefitIcon6,
+    link: "/online-code-snippet-manager",
   },
   {
     id: "6",
-    title: "InstaCare AI Online Symptom Checker",
-    text: "Check symptoms and receive AI-generated health assessments. Get preliminary insights and recommendations before consulting a medical professional.",
-    backgroundUrl: benefitCard1,
-    link: "/symptom-checker",
+    title: "To-Do Chrome Extension",
+    text: "Stay on top of your tasks with ease. Manage your to-dos, stay organized, and boost productivity directly from your browser. Prioritize, track progress, and set reminders with a simple and intuitive interface to help you achieve your goals efficiently.",
+    backgroundUrl: benefitCard2,
+    light:true,
+    iconUrl: benefitIcon7,
+    link: "https://chromewebstore.google.com/detail/to-do-extension/dcejecjgkehdhgcaikfolligbikpifbm?hl=en&authuser=0"
   },
   {
     id: "7",
-    title: "InstaCare AI Virtual Health Assistant",
-    text: "Experience AI-driven virtual health consultations. Our smart assistant helps patients connect with doctors, manage prescriptions, and receive personalized health insights.",
-    backgroundUrl: benefitCard2,
-    light: true,
-    link: "/virtual-health-assistant",
-  },
-  {
-    id: "8",
-    title: "InstaCare AI Predictive Analytics",
-    text: "Enhance healthcare decision-making with AI-powered predictive analytics. Analyze patient data trends to forecast potential health risks and optimize treatment strategies.",
+    title: "Code Caffeine Roadmaps",
+    text: "Accelerate your learning journey with structured roadmaps designed by experts. Explore paths for Web Development, AI, Cyber Security, DevOps, and more. Follow step-by-step guides, master essential skills, and build real-world projects to stay ahead in tech.",
     backgroundUrl: benefitCard3,
-    link: "/predictive-analytics",
-  },
-  {
-    id: "9",
-    title: "InstaCare AI Health Monitoring Dashboard",
-    text: "Monitor vital health metrics in real time. Our AI-powered dashboard tracks heart rate, oxygen levels, and more to ensure proactive healthcare management.",
-    backgroundUrl: benefitCard4,
-    link: "/health-monitoring",
-  }
-];
+    iconUrl: benefitIcon8,
+    link: "/roadmap"
+}
 
+  
+];
 
 
 export const socials = [

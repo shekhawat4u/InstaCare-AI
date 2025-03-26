@@ -71,11 +71,11 @@ const Login = () => {
   return (
     <section className="login text-white min-h-screen flex items-center justify-center">
       <Helmet>
-        <title>Login - InstaCare AI</title>
+        <title>Login - Code Caffeine</title>
       </Helmet>
       <div className="container bg-gray-800 p-8 rounded-lg shadow-lg max-w-md w-full">
         <h2 className="text-3xl font-bold mb-6 text-blue-400">
-          Sign In to InstaCare AI
+          Sign In to Code Caffeine
         </h2>
         <form className="form space-y-4" onSubmit={loginUser}>
           {error && <p className="text-red-400 mb-4">{error}</p>}

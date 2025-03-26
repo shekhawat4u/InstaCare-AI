@@ -9,44 +9,32 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What is InstaCare AI?",
-      answer:
-        "InstaCare AI is an advanced healthcare platform that leverages AI to assist in disease detection, medical diagnostics, and predictive analytics, revolutionizing patient care and medical decision-making.",
+      question: "What is Code Caffeine?",
+      answer: "Code Caffeine is a platform dedicated to providing high-quality content related to coding projects and blogs. Our goal is to help developers enhance their skills and stay updated with the latest trends in coding.",
     },
     {
-      question: "How does InstaCare AI assist in disease detection?",
-      answer:
-        "InstaCare AI utilizes cutting-edge machine learning models to analyze medical images, patient data, and health records, aiding in the early detection of conditions such as brain tumors, pneumonia, and other diseases.",
+      question: "How can I contribute to Code Caffeine?",
+      answer: "We welcome contributions from the community. You can reach out to us via email or social media with your ideas or articles. For more detailed information on contributing, please refer to our contribution guidelines.",
     },
     {
-      question: "Is InstaCare AI suitable for medical professionals?",
-      answer:
-        "Yes! InstaCare AI is designed for healthcare professionals, researchers, and institutions looking to integrate AI-driven insights into their medical practices for better patient outcomes.",
+      question: "Can I advertise on Code Caffeine?",
+      answer: "Yes, we offer advertising opportunities. Please contact us directly for more information on advertising options and rates.",
     },
     {
-      question: "What medical conditions can InstaCare AI predict?",
-      answer:
-        "InstaCare AI focuses on predicting and diagnosing a variety of conditions, including brain tumors, pneumonia, cardiovascular diseases, and more, using AI-powered analysis.",
+      question: "What topics do you cover in your blogs?",
+      answer: "Our blogs cover a wide range of topics including web development, software engineering, programming languages, and industry trends. We aim to provide insights and tutorials that are useful to both beginners and experienced developers.",
     },
     {
-      question: "How accurate is InstaCare AI in diagnostics?",
-      answer:
-        "Our AI models are trained on extensive medical datasets to provide high-accuracy predictions, but they are meant to assist healthcare professionals and not replace clinical judgment.",
+      question: "Are there any membership fees?",
+      answer: "No, Code Caffeine is completely free to use. All our content is accessible without any subscription or membership fees.",
     },
     {
-      question: "Is InstaCare AI free to use?",
-      answer:
-        "InstaCare AI offers both free and premium services. Basic diagnostic tools are available for free, while advanced predictive analytics and professional insights may require a subscription.",
+      question: "How often do you update your content?",
+      answer: "We update our content regularly to ensure it stays relevant and up-to-date. New blog posts and projects are added frequently, so be sure to check back often for the latest updates.",
     },
     {
-      question: "How frequently is the AI updated?",
-      answer:
-        "We continuously enhance our AI models with the latest medical research and datasets to improve diagnostic accuracy and predictive capabilities.",
-    },
-    {
-      question: "Can I integrate InstaCare AI into my hospital system?",
-      answer:
-        "Yes, InstaCare AI provides API solutions and integration options for hospitals, clinics, and healthcare institutions to streamline AI-assisted diagnostics into their workflow.",
+      question: "Can I suggest a topic for a blog post?",
+      answer: "Absolutely! We encourage our readers to suggest topics they are interested in. You can submit your suggestions through our contact form or via email.",
     },
   ];
 

@@ -67,11 +67,11 @@ const Register = () => {
   return (
     <section className="register text-white min-h-screen flex items-center justify-center">
        <Helmet>
-      <title>Register - InstaCare AI</title>
+      <title>Register - Code Caffeine</title>
     </Helmet>
       <div className="container bg-gray-800 p-8 rounded-lg shadow-lg max-w-md w-full">
         <h2 className="text-3xl font-bold mb-6 text-blue-400">
-          {step === 1 ? 'Sign Up to InstaCare AI' : 'Verify OTP'}
+          {step === 1 ? 'Sign Up to Code Caffeine' : 'Verify OTP'}
         </h2>
         {step === 1 ? (
           <form className="form space-y-4" onSubmit={sendOtpHandler}>
