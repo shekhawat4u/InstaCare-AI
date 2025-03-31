@@ -64,6 +64,11 @@ export const navigation = [
     title: "Join Community",
     url: "/group-chat",
   },
+  {
+    id: "2",
+    title: "Hackathon",
+    url: "/hackathon",
+  },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];

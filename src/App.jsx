@@ -41,6 +41,8 @@ const OnlineCodeSnippet = lazy(() => import("./components/OnlineCodeSnippet"));
 const ResetPassword = lazy(() => import("./components/ResetPassword"));
 const InternshipPage = lazy(() => import("./components/InternshipPage"));
 const InternshipApplication = lazy(() => import("./components/InternshipApplication"));
+const Hackathon = lazy(() => import("./components/Hackathon"));
+const HackathonRegistration = lazy(() => import("./components/HackathonRegistration"));
 
 // Lazy load roadmap components - grouped by category to reduce imports
 const Roadmap = lazy(() => import("./components/Roadmap/Roadmap"));
@@ -183,6 +185,10 @@ const AppContent = ({ page }) => {
           <NaturalLanguageProgrammingRoadmap />
         ) : page === "quantum-computing" ? (
           <QuantumComputingRoadmap />
+        ) : page === "hackathon" ? (
+          <Hackathon />
+        ) : page === "hackathon/register" ? (
+          <HackathonRegistration />
         ) : (
           <HomePageContent />
         )}
@@ -336,6 +342,14 @@ const App = () => {
           <Route
             path="/roadmap/quantum-computing"
             element={<AppContent page="quantum-computing" />}
+          />
+          <Route
+            path="/hackathon"
+            element={<AppContent page="hackathon" />}
+          />
+          <Route
+            path="/hackathon/register"
+            element={<AppContent page="hackathon/register" />}
           />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

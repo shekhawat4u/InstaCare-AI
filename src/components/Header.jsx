@@ -190,7 +190,7 @@ const Header = () => {
           <>
             <a
               href="/register"
-              className="button hidden lg:inline-block mr-8 text-n-1/50 transition-colors hover:text-n-1"
+              className="button hidden lg:inline-block mr-8 text-n-1 transition-colors hover:text-color-1 "
             >
               New account
             </a>
